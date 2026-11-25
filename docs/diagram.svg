@@ -1,0 +1,92 @@
+<svg class="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970.49 434.7" width="970.49" height="434.7" id="m8b7c76__root" data-diagram-type="flowchart">
+  <style data-mercat-style="universal">.mercat text{font-family:'Google Sans',Roboto,Arial,sans-serif;fill:var(--m-text);dominant-baseline:central}.mercat .m-node .m-shape{fill:var(--m-node-fill);stroke:var(--m-node-stroke);stroke-width:1.5px}.mercat .m-edge .m-path{fill:none;stroke:var(--m-line);stroke-width:1.5px}.mercat .m-group .m-shape{fill:var(--m-group-fill);stroke:var(--m-group-stroke);stroke-width:1px}.mercat .m-group .m-frame{fill:none;stroke:var(--m-group-stroke);stroke-width:1px}.mercat .m-group .m-header{fill:var(--m-group-hdr)}.mercat .m-group .m-label{fill:var(--m-group-text)}.mercat .t-label{font-size:13px;font-weight:500}.mercat .t-group{font-size:12px;font-weight:600}</style>
+  <style data-mercat-style="theme-light">#m8b7c76__root{--m-text:#1f1f1f;--m-text-sec:#797979;--m-line:#545454;--m-node-fill:#f8f9fa;--m-node-stroke:#747775;--m-group-fill:#f8f9fa;--m-group-stroke:#747775;--m-group-hdr:#f4f4f4;--m-group-text:#1f1f1f}</style>
+  <style data-mercat-style="theme-dark">#m8b7c76__root.dark{--m-text:#e3e3e3;--m-text-sec:#959595;--m-line:#bfbfbf;--m-node-fill:#2d2e30;--m-node-stroke:#8e918f;--m-group-fill:#2d2e30;--m-group-stroke:#8e918f;--m-group-hdr:#292929;--m-group-text:#e3e3e3}</style>
+  <style data-mercat-style="type">#m8b7c76__root .m-node .flowchart-divider,#m8b7c76__root .m-group .flowchart-divider{fill:none;stroke:var(--m-node-stroke);stroke-width:1px}#m8b7c76__root .m-group&gt;.m-shape{stroke:none}#m8b7c76__root .m-group&gt;.m-header{fill:var(--m-group-hdr);stroke:none}#m8b7c76__root .m-label.flowchart-subgraph-title{fill:var(--m-text-sec);font-size:12px;font-weight:600}</style>
+  <g class="mercat mercat-flowchart">
+    <defs>
+      <marker id="m8b7c76__mk-arrow" refX="9.45" refY="3.4" markerWidth="10.8" markerHeight="6.8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+        <path d="M 0 0 L 10.8 3.4 L 0 6.8 Z" class="m-marker" fill="var(--m-line)" stroke="none"/>
+      </marker>
+    </defs>
+    <g>
+      <g class="m-node m-group" id="m8b7c76__group__Dev" data-role="container">
+        <rect x="415.98" y="20" width="527.37" height="104.9" rx="6" ry="6" class="m-shape"/>
+        <path d="M 415.98 26 Q 415.98 20, 421.98 20 L 937.34 20 Q 943.34 20, 943.34 26 L 943.34 48 L 415.98 48 Z" class="m-header"/>
+        <line x1="415.98" y1="48" x2="943.34" y2="48" class="flowchart-divider"/>
+        <rect x="415.98" y="20" width="527.37" height="104.9" rx="6" ry="6" class="m-frame"/>
+        <text x="427.98" y="34" class="m-label flowchart-subgraph-title t-group" text-anchor="start">Dev Environment</text>
+      </g>
+      <g class="m-node m-group" id="m8b7c76__group__Stg" data-role="container">
+        <rect x="417.5" y="164.9" width="524.31" height="104.9" rx="6" ry="6" class="m-shape"/>
+        <path d="M 417.5 170.9 Q 417.5 164.9, 423.5 164.9 L 935.82 164.9 Q 941.82 164.9, 941.82 170.9 L 941.82 192.9 L 417.5 192.9 Z" class="m-header"/>
+        <line x1="417.5" y1="192.9" x2="941.82" y2="192.9" class="flowchart-divider"/>
+        <rect x="417.5" y="164.9" width="524.31" height="104.9" rx="6" ry="6" class="m-frame"/>
+        <text x="429.5" y="178.9" class="m-label flowchart-subgraph-title t-group" text-anchor="start">Staging Environment</text>
+      </g>
+      <g class="m-node m-group" id="m8b7c76__group__Prd" data-role="container">
+        <rect x="408.83" y="309.8" width="541.66" height="104.9" rx="6" ry="6" class="m-shape"/>
+        <path d="M 408.83 315.8 Q 408.83 309.8, 414.83 309.8 L 944.49 309.8 Q 950.49 309.8, 950.49 315.8 L 950.49 337.8 L 408.83 337.8 Z" class="m-header"/>
+        <line x1="408.83" y1="337.8" x2="950.49" y2="337.8" class="flowchart-divider"/>
+        <rect x="408.83" y="309.8" width="541.66" height="104.9" rx="6" ry="6" class="m-frame"/>
+        <text x="420.83" y="323.8" class="m-label flowchart-subgraph-title t-group" text-anchor="start">Production Environment</text>
+      </g>
+      <g class="m-node m-edge" id="m8b7c76__edge__User__TF__0" data-role="connector">
+        <path d="M 155.08 217.35 L 213.73 217.35" class="m-path" marker-end="url(#m8b7c76__mk-arrow)"/>
+      </g>
+      <g class="m-node m-edge" id="m8b7c76__edge__TF__D_5fEC2__0" data-role="connector">
+        <path d="M 348.83 210.89 L 364.69 210.89 Q 370.69 210.89, 370.69 204.89 L 370.69 92.45 Q 370.69 86.45, 376.69 86.45 L 414.63 86.45" class="m-path" marker-end="url(#m8b7c76__mk-arrow)"/>
+      </g>
+      <g class="m-node m-edge" id="m8b7c76__edge__TF__S_5fEC2__0" data-role="connector">
+        <path d="M 348.83 217.35 L 389.39 217.35 Q 395.39 217.35, 395.39 223.35 L 395.39 225.35 Q 395.39 231.35, 401.39 231.35 L 416.15 231.35" class="m-path" marker-end="url(#m8b7c76__mk-arrow)"/>
+      </g>
+      <g class="m-node m-edge" id="m8b7c76__edge__TF__P_5fEC2__0" data-role="connector">
+        <path d="M 348.83 223.81 L 372.83 223.81 Q 378.83 223.81, 378.83 229.81 L 378.83 370.25 Q 378.83 376.25, 384.83 376.25 L 407.48 376.25" class="m-path" marker-end="url(#m8b7c76__mk-arrow)"/>
+      </g>
+      <g class="m-node m-node--stadium" id="m8b7c76__node__User" data-role="vertex">
+        <rect x="20" y="198.9" width="135.08" height="36.9" rx="18.45" ry="18.45" class="m-shape"/>
+        <text x="87.54" y="217.35" class="m-label t-label" text-anchor="middle">💻 Local Machine</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__TF" data-role="vertex">
+        <rect x="215.08" y="198.9" width="133.75" height="36.9" class="m-shape"/>
+        <text x="281.96" y="217.35" class="m-label t-label" text-anchor="middle">🔺 Terraform IaC</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__D_5fEC2" data-role="vertex">
+        <rect x="435.98" y="68" width="145.05" height="36.9" class="m-shape"/>
+        <text x="508.5" y="86.45" class="m-label t-label" text-anchor="middle">🟧 1x EC2 t2.micro</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__D_5fS3" data-role="vertex">
+        <rect x="621.03" y="68" width="109.26" height="36.9" class="m-shape"/>
+        <text x="675.66" y="86.45" class="m-label t-label" text-anchor="middle">🟩 S3 Bucket</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__D_5fDB" data-role="vertex">
+        <rect x="770.29" y="68" width="153.06" height="36.9" class="m-shape"/>
+        <text x="846.82" y="86.45" class="m-label t-label" text-anchor="middle">🟦 DynamoDB Table</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__S_5fEC2" data-role="vertex">
+        <rect x="437.5" y="212.9" width="141.99" height="36.9" class="m-shape"/>
+        <text x="508.5" y="231.35" class="m-label t-label" text-anchor="middle">🟧 1x EC2 t2.small</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__S_5fS3" data-role="vertex">
+        <rect x="619.5" y="212.9" width="109.26" height="36.9" class="m-shape"/>
+        <text x="674.13" y="231.35" class="m-label t-label" text-anchor="middle">🟩 S3 Bucket</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__S_5fDB" data-role="vertex">
+        <rect x="768.76" y="212.9" width="153.06" height="36.9" class="m-shape"/>
+        <text x="845.29" y="231.35" class="m-label t-label" text-anchor="middle">🟦 DynamoDB Table</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__P_5fEC2" data-role="vertex">
+        <rect x="428.83" y="357.8" width="159.34" height="36.9" class="m-shape"/>
+        <text x="508.5" y="376.25" class="m-label t-label" text-anchor="middle">🟧 2x EC2 t2.medium</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__P_5fS3" data-role="vertex">
+        <rect x="628.17" y="357.8" width="109.26" height="36.9" class="m-shape"/>
+        <text x="682.8" y="376.25" class="m-label t-label" text-anchor="middle">🟩 S3 Bucket</text>
+      </g>
+      <g class="m-node m-node--rect" id="m8b7c76__node__P_5fDB" data-role="vertex">
+        <rect x="777.43" y="357.8" width="153.06" height="36.9" class="m-shape"/>
+        <text x="853.96" y="376.25" class="m-label t-label" text-anchor="middle">🟦 DynamoDB Table</text>
+      </g>
+    </g>
+  </g>
+</svg>
